@@ -1,0 +1,461 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap');
+
+
+/* POPUP LOGIN PAGE */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap');
+
+.popup .content1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-150%) scale(0);
+    width: 300px;
+    height: 450px;
+    z-index: 2;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    background: rgba(190, 190, 190, 0.694);
+    z-index: 1;
+   }
+   
+   .popup .close-btn1 {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    width: 30px;
+    height: 30px;
+    color: white;
+    font-size: 30px;
+    border-radius: 50%;
+    padding: 0px 5px 0px 5px;
+    background: #292929a9;
+    }
+   
+   .popup.active .content1 {
+   transition: all 300ms ease-in-out;
+   transform: translate(-50%,-50%) scale(1);
+   }
+   
+   .f7 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 10px;
+   }
+   
+   
+   .input-field1 .validate {
+   padding: 20px;
+   font-size: 16px;
+   border-radius: 10px;
+   border: none;
+   margin-bottom: 15px;
+   color: #000000;
+   background: #ffffff;
+   outline: none;
+   }
+   
+   .first-button {
+   color: white;
+   font-size: 18px;
+   font-weight: 500;
+   padding: 30px 50px;
+   border-radius: 40px;
+   border: none;
+   position: absolute;
+   top: 50%;
+   left: 20%;
+   transform: translate(-50%, -50%);
+   background: #ff0000;
+   transition: box-shadow .35s ease !important;
+   outline: none;
+   }
+   
+   .first-button:active {  
+   background: linear-gradient(145deg, #222222, #292929);
+   box-shadow:  5px 5px 10px #262626, 
+                -5px -5px 10px #262626;
+   border: none;
+   }
+   
+   .second-button1 {
+   color: white;
+   font-size: 18px;
+   font-weight: 500;
+   margin-top: 20px;
+   padding: 20px 30px;
+   border-radius: 40px;
+   border: none;
+   background: #262626;
+   outline: none;
+   }
+   
+   .second-button1:active{
+   border: none;
+   outline: none;
+   }
+   .span{
+   color: #bfc0c0;
+   padding: 20px;
+   }
+
+
+
+
+
+
+
+img{
+    width: 100% !important;
+
+}
+
+/* first row  */
+.row1{
+    background-color: #1e1f29;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: smaller;
+}
+
+.ex1:hover{
+    color: red;
+}
+/* image zoom effect */
+
+  .zoom {
+    transition: transform .3s;
+    /* margin: 0 auto; */
+  }
+  
+  .zoom:hover {
+    -webkit-transform: scale(.5); 
+    transform: scale(.8); 
+  }
+
+/* second row */
+.row2{
+    background-color: #15161d;
+    color: white;
+    border-bottom: solid red;
+    padding-top: 16px;;
+    padding-bottom: 16px;
+    font-size: smaller;
+}
+
+/*red dot near Electro  */
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+/* search button */
+/* .btn1{
+    height: 40px;
+    width: 300px;
+    border: none;
+    border-radius: 20px;    
+} */
+
+.searchinput{
+    height: 40px;
+    width: 100%;
+    padding: 0px 15px;
+    border: 1px solid #E4E7ED;
+    background-color: #FFF;
+    border-radius: 40px 0px 0px 40px ;
+
+
+}
+.searchbtn{
+    height: 40px;
+    width: 100%;
+    background: #D10024;
+    color: #FFF;
+    font-weight: 700;
+    border: none;
+    border-radius: 0px 40px 40px 0px;
+}
+.searchhead{
+    padding: 5px 0px;
+}
+.input1{
+    padding: 0px 16px;
+    background: #FFF;
+    border: 1px solid #E4E7ED;
+    height: 40px;
+    width: 100%;
+
+
+}
+
+
+/* third row  */
+.row3{
+    color: rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(223, 223, 223);
+    /* padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 130px; */
+    font-size: smaller;
+}
+
+.img1{
+    border-color: rgb(241, 241, 241);
+    width:100%;   
+    border-radius: 26px 40px 0px 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.fstyle{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.bor{
+    border-bottom: 2px solid rgb(223, 223, 223);
+}
+
+/* product card */
+.product {
+    width: 30%;
+    background-color: white;
+    border-radius: 26px 40px 0px 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 20px;
+    margin-right: 2%;
+    margin-left: 2%;
+  }
+  
+.ptext   {
+    text-align: center;
+    padding: 20px 25px;
+  }
+
+  .row7{
+    background-color: rgb(213, 223, 224);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-size: smaller;
+}
+
+.shopbtn{
+    height: 40px;
+    width: 100px;
+    background: #D10024;
+    color: #FFF;
+    font-weight: 700;
+    border: none;
+    border-radius:  40px 40px;
+}
+
+/*red round timer */
+.r1{
+    height: 100px;
+    width: 100px;
+    background: #D10024;
+    color: #FFF;
+    font-weight: 700;
+    border: none;
+    border-radius: 50%;
+}
+
+/* product card */
+.product1 {
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 26px 40px 0px 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 20px;
+    margin-right: 2%;
+    margin-left: 2%;
+  }
+
+/* 10th row */
+.product-view-h3{
+    margin: 30px 0px;;
+}
+
+.product-view-h3 h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.product-view img{
+    width: 100%;
+}
+
+.product-view .cat{
+    font-size: 10px;
+}
+
+.product-view h4{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.product-view-price{
+    color: rgb(201, 21, 21);
+    font-weight: 600;   
+    font-size: 15px;
+}
+
+.product-view-price span{
+    font-size: small;
+    font-weight: 300;
+    text-decoration: line-through;
+}
+
+  
+  /* 12th row */
+.row11{
+    border-top: solid rgb(219, 219, 219);
+    padding-top: 30px;
+    padding-bottom: 16px;
+    font-size:medium;
+}
+
+/* 12th row */
+.row12{
+    background-color: #15161d;
+    color: white;
+    border-top: solid red;
+    padding-top: 75px;
+    padding-bottom: 16px;
+    font-size:medium;
+}
+
+.row12 li{
+    list-style: none;
+}
+
+/* first row  */
+.row13{
+    background-color: #1e1f29;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 25px;
+    font-size: smaller;
+}
+
+.input2{
+    padding: 0px 16px;
+    background: #FFF;
+    border: 1px solid #E4E7ED;
+    height: 40px;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+
+.searchhead2{
+    padding: 0px 90px;
+}
+
+.icon{
+    display: inline-block;
+    margin-right: 5px;
+}
+.icon li{
+    list-style: none;
+}
+
+.s-icons{
+    text-align: center;
+}
+.searchbtn1{
+    height: 40px;
+    width: 150px;
+    background: #D10024;
+    color: #FFF;
+    font-weight: 700;
+    border: none;
+    border-radius: 0px 40px 40px 0px;
+}
+.bg11{
+    background: url(../image/img7.png) no-repeat center;
+    background-size: contain;
+    background-position: 30% 15px;
+    /* transform: rotate(20deg); */
+}
+
+@media(min-width:576px) and (max-width:991px)
+{
+    .f1{
+        text-align: center;
+    }
+    .f2{
+        text-align: left    ;
+    }
+}
+
+
+.a1 {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+.a1 {
+    background:
+      linear-gradient(
+        to right,
+        rgb(255, 255, 255),
+        rgb(255, 255, 255)
+      ),
+      linear-gradient(
+        to right,
+       red,
+       red,
+       red
+    );
+    background-size: 100% 3px, 0 3px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 500ms;
+  }
+  
+  a:hover {
+    background-size: 0 3px, 100% 3px;
+  }
+  
+ q{
+    color: #D10024;
+ }
+
+
+.btn{
+    padding: 1px 1px 18px 3px;
+    size-adjust: 20px;
+}
+
+.btn :hover{
+    color:#ff0000
+}
+
+.sign{
+    color: #000000;
+}
+
+.sign :hover{
+    text-decoration:none !important;
+    color: #D10024 !important;
+}
+
+/* Popup blur effect in login  */
+.blur-filter { 
+    -webkit-filter: blur(20px) !important;
+    -moz-filter: blur(20px);
+    -o-filter: blur(20px);
+    -ms-filter: blur(20px);
+    filter: blur(20px);
+}

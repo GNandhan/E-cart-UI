@@ -1,0 +1,50 @@
+body{
+
+  background: linear-gradient(to right, #22c0c39d, #fdbb2d9d);
+}
+.card {
+  box-shadow: 0 40px 80px 0 rgba(0, 0, 0, 0.403);
+  background-color:white;
+  transition: 0.3s;
+  width: 28%;
+  margin-left: 500px;
+  margin-top: 10px;
+}
+.card:hover {
+  box-shadow: 0 28px 16px 0 rgba(0, 0, 0, 0.382);
+}
+.bord1{
+  border-radius: 40px;
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
+}
+.head{
+  font-family: 'Akaya Kanadaka', cursive;
+  font-size: 28px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+label{
+  font-family: 'Akaya Kanadaka', cursive;
+}
+.svg1{
+  border-radius: 30px 30px 0px 0px;
+}
+.pz{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 40px;
+}
+.cont1{
+  border-radius: 5px;
+  background-color: yellowgreen;
+}
+
+.a1{
+  color: white;
+}
+
+
+
+
